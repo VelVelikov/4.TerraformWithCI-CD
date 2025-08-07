@@ -43,7 +43,7 @@ jobs:
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
-      run: terraform plan -out=tfplan
+      run: terraform plan -out=tfplan -var-file="terraform.tfvars"
 
 
     - name: Upload Terraform Plan Artifact
