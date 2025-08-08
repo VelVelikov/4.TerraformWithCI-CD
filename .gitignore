@@ -1,1 +1,32 @@
 creds.json
+.terraform/providers/registry.terraform.io/hashicorp/random/3.7.2/linux_amd64/LICENSE.txt
+.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.38.1/linux_amd64/LICENSE.txt
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude override files as they are usually local only
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include tfplan files, they are binary and specific to your environment
+*.tfplan
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
